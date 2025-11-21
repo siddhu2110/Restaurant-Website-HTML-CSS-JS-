@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MENU</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- HERO / HOME SECTION -->
+    <div class="back" id="home">
+      <nav class="nav">
+        <h1>
+          <i class="fa-solid fa-utensils" style="color: #035942"></i> Chef's
+          Plate
+        </h1>
+        <ul>
+          <li data-target="home">HOME</li>
+          <li data-target="menu">MENU</li>
+          <li data-target="reviews">ABOUT</li>
+          <li data-target="contact">CONTACT</li>
+          <li data-target="menu">ORDER (<span id="cart-count">0</span>)</li>
+        </ul>
+      </nav>
+      <div class="text">
+        <h2>Taste the World, One Plate at a Time</h2>
+        <h5>Experience the taste of food.</h5>
+      </div>
+    </div>
+
+    <!-- FEATURED DISHES / MENU SECTION -->
+    <section id="menu">
+      <h2 class="section-title">Featured Dishes</h2>
+      <div class="featured-dishes">
+        <div class="card">
+          <img
+            src="https://burst.shopifycdn.com/photos/flatlay-iron-skillet-with-meat-and-other-food.jpg?width=1000&format=pjpg&exif=0&iptc=0"
+            height="100px"
+            alt=""
+          />
+          <h3>Grilled Steak</h3>
+          <p>Juicy grilled steak with garlic butter</p>
+          <button class="buy-btn">BUY NOW</button>
+        </div>
+        <div class="card">
+          <img
+            src="https://burst.shopifycdn.com/photos/flatlay-iron-skillet-with-meat-and-other-food.jpg?width=1000&format=pjpg&exif=0&iptc=0"
+            height="100px"
+            alt=""
+          />
+          <h3>Herb Chicken</h3>
+          <p>Tender chicken with fresh herbs</p>
+          <button class="buy-btn">BUY NOW</button>
+        </div>
+        <div class="card">
+          <img
+            src="https://burst.shopifycdn.com/photos/flatlay-iron-skillet-with-meat-and-other-food.jpg?width=1000&format=pjpg&exif=0&iptc=0"
+            height="100px"
+            alt=""
+          />
+          <h3>Pasta Primavera</h3>
+          <p>Creamy pasta with seasonal veggies</p>
+          <button class="buy-btn">BUY NOW</button>
+        </div>
+        <div class="card">
+          <img
+            src="https://burst.shopifycdn.com/photos/flatlay-iron-skillet-with-meat-and-other-food.jpg?width=1000&format=pjpg&exif=0&iptc=0"
+            height="100px"
+            alt=""
+          />
+          <h3>Sizzling Platter</h3>
+          <p>Mixed grill served smoking hot</p>
+          <button class="buy-btn">BUY NOW</button>
+        </div>
+        <div class="card">
+          <img
+            src="https://burst.shopifycdn.com/photos/flatlay-iron-skillet-with-meat-and-other-food.jpg?width=1000&format=pjpg&exif=0&iptc=0"
+            height="100px"
+            alt=""
+          />
+          <h3>Veggie Delight</h3>
+          <p>Fresh and colorful vegetarian special</p>
+          <button class="buy-btn">BUY NOW</button>
+        </div>
+        <div class="card">
+          <img
+            src="https://burst.shopifycdn.com/photos/flatlay-iron-skillet-with-meat-and-other-food.jpg?width=1000&format=pjpg&exif=0&iptc=0"
+            height="100px"
+            alt=""
+          />
+          <h3>Spicy Wings</h3>
+          <p>Crispy wings with spicy sauce</p>
+          <button class="buy-btn">BUY NOW</button>
+        </div>
+        <!-- You can keep duplicating cards if you want more items -->
+      </div>
+    </section>
+
+    <!-- CUSTOMER REVIEWS / ABOUT SECTION -->
+    <section id="reviews">
+      <h1 class="reviews-heading">Customer Reviews</h1>
+      <div class="customer-reviews">
+        <div class="review">
+          <img class="img" src="./Laxman.jpg" alt="" height="50px" />
+          <div>
+            <div class="stars">🌟🌟🌟🌟🌟</div>
+            <p>"Amazing Food, Quick Delivery"</p>
+            <p class="review-name">- LAXMAN</p>
+          </div>
+        </div>
+        <div class="review">
+          <img class="img" src="./Laxman.jpg" alt="" height="50px" />
+          <div>
+            <div class="stars">🌟🌟🌟🌟</div>
+            <p>"Great taste and friendly service!"</p>
+            <p class="review-name">- RAHUL</p>
+          </div>
+        </div>
+        <div class="review">
+          <img class="img" src="./Laxman.jpg" alt="" height="50px" />
+          <div>
+            <div class="stars">🌟🌟🌟🌟🌟</div>
+            <p>"Best dining experience in town."</p>
+            <p class="review-name">- PRIYA</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER / CONTACT SECTION -->
+    <footer id="contact">
+      <div class="footercontent">
+        <p>
+          &copy; <span id="year">2024</span> Chef's Plate. All rights reserved.
+        </p>
+        <div class="icons">
+          <i class="fa-brands fa-facebook" style="color: white"></i>
+          <i class="fa-brands fa-twitter" style="color: white"></i>
+          <i class="fa-brands fa-instagram" style="color: white"></i>
+          <i class="fa-brands fa-linkedin" style="color: white"></i>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+  </body>
+</html>
